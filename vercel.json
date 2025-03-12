@@ -2,8 +2,8 @@
   "version": 2,
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
+  "framework": "nextjs",
   "outputDirectory": ".next",
   "public": false,
-  "regions": ["iad1"],
-  "routes": [{ "src": "/(.*)", "dest": "/" }]
+  "regions": ["iad1"]
 }

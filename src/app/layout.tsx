@@ -9,8 +9,12 @@ const lato = Lato({
 });
 
 export const metadata = {
-  title: "Focus",
-  description: "Focus landing page",
+  title: "Focus | Restaurant Analytics Platform",
+  description:
+    "Handcrafted loyalty as unique as your restaurants. Understand your guests and build loyalty across concepts with purpose built software that puts you in control.",
+  keywords: ["focus", "restaurant", "analytics", "loyalty", "hospitality"],
+  authors: [{ name: "Focus Team" }],
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
@@ -20,7 +24,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${lato.className} antialiased`}>{children}</body>
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </head>
+      <body className={`${lato.className} antialiased bg-white`}>
+        {children}
+      </body>
     </html>
   );
 }
