@@ -13,6 +13,10 @@ const Navbar = () => {
       setIsScrolled(window.scrollY > 10);
     };
     window.addEventListener("scroll", handleScroll);
+
+    // Initial check on mount
+    handleScroll();
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -22,7 +26,7 @@ const Navbar = () => {
         isScrolled ? "py-2 bg-white shadow-md" : "py-4 bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -33,6 +37,7 @@ const Navbar = () => {
                 width={130}
                 height={40}
                 className="h-8 w-auto"
+                priority
               />
             </Link>
           </div>
@@ -71,6 +76,7 @@ const Navbar = () => {
               type="button"
               className="text-gray-800 hover:text-[#4F3890] focus:outline-none"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle mobile menu"
             >
               <span className="sr-only">Open main menu</span>
               {mobileMenuOpen ? (
@@ -79,6 +85,7 @@ const Navbar = () => {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
+                  aria-hidden="true"
                 >
                   <path
                     strokeLinecap="round"
@@ -93,6 +100,7 @@ const Navbar = () => {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
+                  aria-hidden="true"
                 >
                   <path
                     strokeLinecap="round"

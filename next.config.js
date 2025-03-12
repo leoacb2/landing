@@ -4,7 +4,13 @@ const nextConfig = {
   output: "standalone",
   images: {
     domains: ["vercel.com"],
-    unoptimized: true,
+    unoptimized: false,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
   },
   experimental: {
     // Needed for Vercel serverless deployment
