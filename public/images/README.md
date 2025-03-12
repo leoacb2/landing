@@ -1,6 +1,11 @@
-# Image Assets
+# Images Directory
 
-This directory contains the images used throughout the website.
+This directory contains all static images used in the application.
+
+## Structure
+
+- `/logos` - Contains partner and brand logos
+- Root directory - Contains hero images and other main graphics
 
 ## Adding Image Assets
 

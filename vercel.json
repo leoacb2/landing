@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "outputDirectory": ".next",
+  "public": false,
+  "regions": ["iad1"],
+  "routes": [{ "src": "/(.*)", "dest": "/" }]
+}
