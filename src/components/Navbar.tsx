@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div
       className={`fixed ${
-        isScrolled ? "top-0" : "top-4"
+        isScrolled ? "top-1" : "top-4"
       } left-0 right-0 z-50 mx-auto px-4 sm:px-6 lg:px-8 w-full transition-all duration-300`}
     >
       <div className="max-w-7xl mx-auto flex items-center">
