@@ -23,10 +23,10 @@ To add the company logos for the Hero section:
 
 1. Place the logo images in the `public/images/logos` directory
 2. Use the following filenames (or update the image sources in the Hero component):
-   - `lettuce-entertain-you.png` - Lettuce Entertain You logo
-   - `hogsalt.png` - HOGSALT logo
-   - `doordash.png` - DOORDASH logo
-   - `alamo.png` - ALAMO logo
+   - `lettuce-entertain-you-logo.png` - Lettuce Entertain You logo
+   - `hogsalt-logo.png` - HOGSALT logo
+   - `doordash-logo.png` - DOORDASH logo
+   - `alamo-logo.png` - ALAMO logo
 3. Recommended dimensions: 180px × 70px (or similar aspect ratio)
 4. Preferred format: PNG with transparency
 
@@ -54,7 +54,7 @@ Once the images are added, update the Hero component in `src/components/sections
   /* For the company logos */
 }
 <Image
-  src="/images/logos/lettuce-entertain-you.png"
+  src="/images/logos/lettuce-entertain-you-logo.png"
   alt="Lettuce Entertain You"
   width={180}
   height={70}

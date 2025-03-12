@@ -31,7 +31,7 @@ const SocialProof = () => {
           <div className="md:w-2/5 flex justify-center items-center">
             <div className="relative w-64 h-64 md:w-72 md:h-72 flex items-center justify-center">
               <Image
-                src="/images/logos/Lettuce Entertain You Logo  3.png"
+                src="/images/logos/lettuce-entertain-you-logo.png"
                 alt="Lettuce Entertain You"
                 width={280}
                 height={280}

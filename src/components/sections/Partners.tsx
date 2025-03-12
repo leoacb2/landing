@@ -21,7 +21,7 @@ const Partners = () => {
           {/* Company logos */}
           <div className="flex justify-center items-center h-16 lg:h-20 bg-gray-50 rounded-lg p-3 shadow-sm">
             <Image
-              src="/images/logos/Lettuce Entertain You Logo  3.png"
+              src="/images/logos/lettuce-entertain-you-logo.png"
               alt="Lettuce Entertain You"
               width={180}
               height={70}
@@ -30,7 +30,7 @@ const Partners = () => {
           </div>
           <div className="flex justify-center items-center h-16 lg:h-20 bg-gray-50 rounded-lg p-3 shadow-sm">
             <Image
-              src="/images/logos/Hogsalt Logo 1.png"
+              src="/images/logos/hogsalt-logo.png"
               alt="Hogsalt"
               width={180}
               height={70}
@@ -39,7 +39,7 @@ const Partners = () => {
           </div>
           <div className="flex justify-center items-center h-16 lg:h-20 bg-gray-50 rounded-lg p-3 shadow-sm">
             <Image
-              src="/images/logos/DoorDash-logo 1.png"
+              src="/images/logos/doordash-logo.png"
               alt="DoorDash"
               width={180}
               height={70}
@@ -48,7 +48,7 @@ const Partners = () => {
           </div>
           <div className="flex justify-center items-center h-16 lg:h-20 bg-gray-50 rounded-lg p-3 shadow-sm">
             <Image
-              src="/images/logos/alamo drafthouse 1.png"
+              src="/images/logos/alamo-logo.png"
               alt="Alamo"
               width={180}
               height={70}
